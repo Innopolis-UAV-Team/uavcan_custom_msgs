@@ -28,5 +28,7 @@ uint8 SECOND_UP                     = 8
 uint8 THIRD_DOWN                    = 16
 uint8 THIRD_UP                      = 32
 uint8 FOURTH_DOWN                   = 64
+uint8 ALL_DOWN                      = 85
 uint8 FOURTH_UP                     = 128
+uint8 ALL_UP                        = 170
 uint8 limit_switch_status

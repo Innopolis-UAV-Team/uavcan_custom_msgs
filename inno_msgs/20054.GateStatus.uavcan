@@ -1,0 +1,28 @@
+#
+# Gate Status
+#
+
+#
+# Executing command
+# 
+inno_msgs.GateControl executing_cmd
+
+#
+# Stage of gate
+# 
+uint8 STAGE_ERROR                   = 0
+uint8 STAGE_INTERMEDIATE            = 1
+uint8 STAGE_OPEN                    = 2
+uint8 STAGE_CLOSE                   = 3
+uint8 STAGE_OPENING                 = 4
+uint8 STAGE_CLOSING                 = 5
+uint8 stage
+
+#
+# Limit switch status
+#
+uint8 LEFT_CLOSE                    = 1
+uint8 LEFT_OPEN                     = 2
+uint8 RIGHT_CLOSE                   = 4
+uint8 RIGHT_OPEN                    = 8
+uint8 limit_switch_status

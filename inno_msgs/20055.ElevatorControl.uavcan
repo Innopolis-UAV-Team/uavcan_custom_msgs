@@ -1,0 +1,14 @@
+#
+# Elevator Control
+#
+
+#
+# Contol Command
+# 
+uint8 CMD_HOLD                      = 0
+uint8 CMD_OPEN                      = 1
+uint8 CMD_CLOSE                     = 2
+uint8 CMD_DO_NOTHING                = 3
+uint8 cmd
+
+uint8 force

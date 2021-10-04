@@ -1,0 +1,32 @@
+#
+# Elevator Status
+#
+
+#
+# Executing command
+# 
+inno_msgs.ElevatorControl executing_cmd
+
+#
+# Stage of elevator
+# 
+uint8 STAGE_ERROR                   = 0
+uint8 STAGE_INTERMEDIATE            = 1
+uint8 STAGE_LIFT                    = 2
+uint8 STAGE_DOWN                    = 3
+uint8 STAGE_IS_LIFTING              = 4
+uint8 STAGE_IS_GOING_DOWN           = 5
+uint8 stage
+
+#
+# Limit switch status
+#
+uint8 FIRST_DOWN                    = 1
+uint8 FIRST_UP                      = 2
+uint8 SECOND_DOWN                   = 4
+uint8 SECOND_UP                     = 8
+uint8 THIRD_DOWN                    = 16
+uint8 THIRD_UP                      = 32
+uint8 FOURTH_DOWN                   = 64
+uint8 FOURTH_UP                     = 128
+uint8 limit_switch_status

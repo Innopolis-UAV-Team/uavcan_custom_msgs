@@ -1,0 +1,11 @@
+#
+# Pmu Charger Control
+#
+
+#
+# Contol Command
+# 
+uint8 CMD_PMU_CHARGER_DISABLE       = 0
+uint8 CMD_PMU_CHARGER_ENABLE        = 1
+uint8 CMD_PMU_CHARGER_DO_NOTHING    = 2
+uint8 cmd

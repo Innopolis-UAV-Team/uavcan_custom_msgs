@@ -24,7 +24,5 @@ uint8 stage
 uint8 LEFT_CLOSE                    = 1
 uint8 LEFT_OPEN                     = 2
 uint8 RIGHT_CLOSE                   = 4
-uint8 BOTH_CLOSED                   = 5
 uint8 RIGHT_OPEN                    = 8
-uint8 BOTH_OPEN                     = 10
 uint8 limit_switch_status

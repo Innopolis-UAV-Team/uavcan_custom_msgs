@@ -1,0 +1,12 @@
+#
+# Pmu Status
+#
+
+inno_msgs.PmuPowerControl power_control
+inno_msgs.PmuChargerControl charger_control
+inno_msgs.PmuLoadControl load_control
+
+uint8 CHARGER_CONNECTION_STATUS_UNKNOWN         = 0
+uint8 CHARGER_CONNECTION_STATUS_CONNECTED       = 1
+uint8 CHARGER_CONNECTION_STATUS_DISCONNECTED    = 2
+uint8 charger_connection_status
